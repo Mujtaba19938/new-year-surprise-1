@@ -1,10 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
-import image1 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.40 PM.jpeg'
-import image2 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.41 PM (2).jpeg'
-import image3 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.41 PM.jpeg'
-import image4 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.42 PM (2).jpeg'
-import image5 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.42 PM (3).jpeg'
-import image6 from '../assets/images/WhatsApp Image 2025-12-31 at 11.19.42 PM.jpeg'
+import image1 from '../assets/images/WhatsApp Image 2025-12-31 at 11.50.16 PM (2).jpeg'
+import image2 from '../assets/images/WhatsApp Image 2025-12-31 at 11.50.16 PM.jpeg'
+import image3 from '../assets/images/WhatsApp Image 2025-12-31 at 11.52.18 PM.jpeg'
 
 function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n))
@@ -19,10 +16,7 @@ export default function ImageCardSwiper({ onComplete }) {
   const cards = [
     { id: 1, image: image1, title: '' },
     { id: 2, image: image2, title: '' },
-    { id: 3, image: image3, title: '' },
-    { id: 4, image: image4, title: '' },
-    { id: 5, image: image5, title: '' },
-    { id: 6, image: image6, title: '' }
+    { id: 3, image: image3, title: '' }
   ]
 
   const handlePointerDown = (e) => {

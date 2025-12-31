@@ -40,7 +40,7 @@ export default function App() {
       case STEPS.IMAGE_SWIPER:
         return { h1: 'Some moments from this year', h2: 'Swipe to see more' }
       case STEPS.BOOK:
-        return { h1: 'For my mahnoor  :) ♥️' }
+        return { h1: 'For my girlfriend hijab :) ♥️' }
       case STEPS.MEMORIES:
         return { h1: 'Some moments from this year', h2: 'Tap the photo to continue' }
       default:
